@@ -24,7 +24,7 @@ function getUserSoftware(req){
 router.get('/', function(req, res, next) {
   
     
-    res.redirect("localhost/api/whoami");
+    res.redirect("/api/whoami");
 });
 
 /* GET home page. */
